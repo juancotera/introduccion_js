@@ -23,3 +23,28 @@ console.log(linecode);
 const preformat = "PrimeraLinea\n\t\\SecundaLinea\nTerceraLinea";
 
 console.log(preformat);
+
+//simbolo +
+const mas = "Hola soy Juan, " + "Soy maestro.";
+
+console.log(mas);
+
+// Concatenar - romper cadena en varias lineas
+// lo podemos usar con la declaración LET para poder cambiar el valor
+let masigual = "Hola soy Juan, "
+      masigual += "Soy maestro.";
+
+console.log(masigual);
+
+// CONCATENAR CON VARIABLES
+const nombre = "Juan";
+const saludo = "Hola soy " + nombre + ", soy Maestro.";
+
+console.log(saludo);
+
+// AGREGAR VARIABLES A UNA CADENA CON +=
+const feeling = "Emocionado";
+let descripcion = "Hoy estoy muy ";
+    descripcion += feeling
+
+console.log(descripcion);
