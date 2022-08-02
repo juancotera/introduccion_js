@@ -18,3 +18,8 @@ console.log(linecode);
 // \t	tabulación
 // \b	límite de palabra
 // \f	fuente de formulario
+// En este ejemplo vemos como usar algunas de las formas de escapar con backSlash
+// Incluso espacapamos un backSlash en la segunda linea
+const preformat = "PrimeraLinea\n\t\\SecundaLinea\nTerceraLinea";
+
+console.log(preformat);
