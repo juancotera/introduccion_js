@@ -65,3 +65,10 @@ const lastname = "Cotera";
 // Los corchetes tendran el valor para ubicar la letra
 firstLetterOfLastname = lastname[5];
 console.log(firstLetterOfLastname);
+
+//OBTENER LA ULTIMA LETRA USANDO LENGTH
+
+let lastname2 = "Villavicencio";
+// De igual forma en los [] podemos colocar el valor contando al reves
+const ultimaletra = lastname2[lastname2.length -1];
+console.log(ultimaletra);
