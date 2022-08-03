@@ -39,3 +39,11 @@ notasFinales.push(17, 16)
 // tambien podemos agregar array, y hacer un arreglo multidimensional
 notasFinales.push([15, 18, 19, 15]);
 console.log(notasFinales);
+
+// MANIPULAR ARREGLOS CON POP
+// con pop lo que hacemos es tomar el ultimo valor y devolverlo, para eso debemos asignalo a una variable
+const frutas = ["manzana", "piña", "lechuga"];
+const noFruta = frutas.pop()
+
+console.log(frutas);
+console.log(noFruta);
