@@ -31,3 +31,11 @@ const notas = [
 //const notaMayor = notas[2][0]; nos dará [12, 13, 20]
 const notaMayor = notas[2][0][2]; // 20
 console.log(notaMayor);
+
+// AGREGAR VALORES A UN ARRAY CON PUSH
+const notasFinales = [15, 16];
+// podemos agregar valores, incluso separandolos por ,
+notasFinales.push(17, 16)
+// tambien podemos agregar array, y hacer un arreglo multidimensional
+notasFinales.push([15, 18, 19, 15]);
+console.log(notasFinales);
