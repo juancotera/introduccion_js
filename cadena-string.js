@@ -48,3 +48,20 @@ let descripcion = "Hoy estoy muy ";
     descripcion += feeling
 
 console.log(descripcion);
+
+// LONGITUD DE UNA CADENA LENGTH
+
+let lenghtApellido = 0;
+const apellido = "Juan lucas                 cotera castro"
+
+lenghtApellido = apellido.length;
+
+console.log("El tamaño de la cadena de apellido es: " + lenghtApellido);
+
+// ENCONTRA UN CARATER DE UNA CADENA
+
+let firstLetterOfLastname = "";
+const lastname = "Cotera";
+// Los corchetes tendran el valor para ubicar la letra
+firstLetterOfLastname = lastname[5];
+console.log(firstLetterOfLastname);
