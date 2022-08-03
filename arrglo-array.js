@@ -55,3 +55,10 @@ const noverdura = verduras.shift()
 
 console.log(noverdura);
 console.log(verduras);
+
+// MANIPULAR ELEMENTOS CON UNSHIFT
+// con unshift al contrario de POP agregaremos un elemento delante del array
+const aves = ["pato", "pollo", "pavo"];
+aves.unshift("paloma")
+
+console.log(aves);
