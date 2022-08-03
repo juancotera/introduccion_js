@@ -47,3 +47,11 @@ const noFruta = frutas.pop()
 
 console.log(frutas);
 console.log(noFruta);
+
+// MANIPULAR ELEMENTOS CON SHIFT
+// con pop lo que hacemos es tomar el PRIMER valor y devolverlo, para eso debemos asignalo a una variable
+const verduras = ["palta", "coliflor", "apio"];
+const noverdura = verduras.shift()
+
+console.log(noverdura);
+console.log(verduras);
